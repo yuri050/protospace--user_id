@@ -1,5 +1,5 @@
 {
-  "name": "protospace_テックマスターのuser_id",
+  "name": "protospace-37329",
   "private": true,
   "dependencies": {
     "@rails/ujs": "^6.0.0-alpha",
@@ -8,9 +8,4 @@
     "@rails/actioncable": "^6.0.0-alpha"
   },
   "version": "0.1.0"
-}
-
-}, 
-"engines" : {
-  "node": "14.18.2" 
 }
