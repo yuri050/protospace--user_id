@@ -13,9 +13,8 @@
 
 ### Association
 
-- has_many :prototypes
-- has_many :comments
-
+* has_many :prototypes
+* has_many :comments
 
 ## prototypes テーブル
 
@@ -26,10 +25,9 @@
 | concept      | text       | null: false                    |
 | user         | references | null: false, foreign_key: true |
 
-
 ### Association
 
-- has_many :users
+- belongs_to :user
 - has_many :comments
 
 
@@ -41,8 +39,7 @@
 | prototype    | references | null: false, foreign_key: true |
 | user         | references | null: false, foreign_key: true |
 
-
 ### Association
 
-- has_many :users
-- has_many :prototypes
+- belongs_to :prototype
+- belongs_to :user
